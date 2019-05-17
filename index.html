@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>はじめてのライツアウト</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        <section id="container">
+            <!-- <div id="header"></div> -->
+            <div id="main">
+                <h1>ライツアウト</h1>
+                <div id="gamemenu">
+                    <select id="size">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="5" selected>5</option>
+                        <option value="7">7</option>
+                        <option value="11">11</option>
+                    </select>
+                    <button onclick="initialize()">初期化</button>
+                    <button id="hint">ヒント</button>
+                    <div id="hand" value="0">0手</div>
+                </div>
+                <div id="game">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
